@@ -1,0 +1,35 @@
+﻿@page "/resume"
+
+<h3>Resume</h3>
+
+@* <div class="modal" tabindex="-1" style="display:@(showModal ? "block" : "none")">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">My Resume</h5>
+                <button type="button" class="btn-close" @onclick="CloseModal"></button>
+            </div>
+            <div class="modal-body">
+                <iframe src="Images/JoshMarquardt_Resume_2024.pdf" width="100%" height="600px"></iframe>
+            </div>
+            <div class="modal-footer">
+                <a href="Images/JoshMarquardt_Resume_2024.pdf" target="_blank" class="btn btn-primary">Download</a>
+                <button type="button" class="btn btn-secondary" @onclick="CloseModal">Close</button>
+            </div>
+        </div>
+    </div>
+</div> *@
+
+<iframe src="Images/JoshMarquardt_Resume_2024.pdf" width="100%" height="750px"></iframe>
+
+
+
+@code {
+    private bool showModal = true;
+
+    private void CloseModal()
+    {
+        showModal = false;
+    }
+
+}
