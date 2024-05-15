@@ -89,3 +89,12 @@ a, .btn-link {
 .line-height {
     line-height: 2;
 }
+
+.main-text-column {
+    margin-left: 150px;
+}
+
+.make-flex {
+    display: flex;
+    align-items: flex-start;
+}
