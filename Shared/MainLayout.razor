@@ -11,18 +11,13 @@
         <div class="@NavMenuCssClass" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item" @onclick="@(() => OnClickMenu("nav-item"))">
-                    <NavLink class="nav-link" href="about">
-                        <span class="oi oi-person" aria-hidden="true"></span> About
-                    </NavLink>
-                </li>
-                <li class="nav-item" @onclick="@(() => OnClickMenu("nav-item"))">
                     <NavLink class="nav-link" href="projects">
-                        <span class="oi oi-list" aria-hidden="true"></span> Projects
+                        <span aria-hidden="true"></span> Projects
                     </NavLink>
                 </li>
                 <li class="nav-item" @onclick="@(() => OnClickMenu("nav-item"))">
-                    <NavLink class="nav-link" href="resume">
-                        <span class="fas fa-user" aria-hidden="true"></span> Resume
+                    <NavLink class="nav-link" href="/resume">
+                        <span aria-hidden="true"></span> Resume
                     </NavLink>
                 </li>
                 @* <li class="nav-item dropdown" @onclick:preventDefault="true" @onclick="@(() => OnClickMenu("dropdown-1"))">
