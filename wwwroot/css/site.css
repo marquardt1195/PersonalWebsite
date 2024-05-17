@@ -98,6 +98,7 @@ a, .btn-link {
 .main-text-column {
     margin-left: 100px;
     margin-right: 350px;
+    font-family: ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 }
 
 .make-flex {
@@ -107,4 +108,10 @@ a, .btn-link {
 
 .nav-menu-styling {
     margin-left: 18rem;
+}
+
+.resume-styling {
+    margin-left: 11rem;
+    width: 80%;
+    height: 750px;
 }
